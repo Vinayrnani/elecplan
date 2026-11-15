@@ -138,6 +138,13 @@ Note: several labels are partially obscured by viewer overlays; lengths are mode
 - Committed and pushed to GitHub (main branch).
 - Opens in draw.io web via: https://app.diagrams.net/?github=Vinayrnani/elecplan&file=drawings/farmhouse_electrical_sld_16way_v4.drawio
 
+### Recent changes (draw.io Page-2 wire routing fix)
+- Fixed all Serplex 11x2 module wire connections to use vertical exit/entry points (straight up or down).
+- 5 edges updated: 189 (entryY 0.004→0), 190 (exitX 1→0.5, exitY 0.5→1, entryY 0.004→0), 195/198/199 (exitX 0→0.5, exitY 0.5→0).
+- No wire now crosses any Serplex module interior; no overlapping segments.
+- Commit d9bd626 pushed to GitHub.
+- Installed `electrical` and `electrical-engineering` skills for professional electrical planning.
+
 ### Pending
 - Custom BOM Excel sheet (.xlsx) — deferred per user ("no excel for now").
 - Awaiting your instructions on what updates to make next to Page-2.
