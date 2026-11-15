@@ -52,3 +52,8 @@
 - Added @17.5mm standard mod width specification to all 6 box labels (Box 1-6).
 - Standard DIN rail module = 17.5mm (Schneider, ABB, Legrand, Siemens).
 - Commit b5498d8 pushed to GitHub.
+
+## Recent changes (Way notation for all boxes)
+- Added Way notation to Box 4 (13-Way), Box 5 (9-Way), Box 6 (6-Way) labels.
+- All 6 boxes now follow "X-Way Box N: Name" format.
+- Commit 40a4a63 pushed to GitHub.
