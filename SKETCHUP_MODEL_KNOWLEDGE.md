@@ -125,15 +125,14 @@ Note: several labels are partially obscured by viewer overlays; lengths are mode
 **Repo:** https://github.com/Vinayrnani/elecplan (PUBLIC)
 **File:** drawings/farmhouse_electrical_sld_16way_v4.drawio
 
-### What changed
-- Reduced diagram to **page 2 only** ("Panel Layout & Sub-DB Details") — removed the congested page 1 so the file opens cleanly in draw.io web via GitHub.
-- Rebuilt page 2 with a **tidy modular grid** (consistent cell size, fixed row/column pitch) instead of the previous scattered layout (negative coordinates, X from 115 to 2596, Y from -380 to 1250).
-- Added **missing components**: Grid Incomer with TSSPDCL Energy Meter, Main Isolator (63A 4P), Manual Changeover (63A 4P), Generator Inlet (32A 5-Pin IP67), OV/UV Protector (63A 4P), Type-2 SPD (40kA 4P), Central Earth Pit, 100A Tinned Copper Busbar (R/Y/B/N/E), Serplex 11x2-Way split hubs #1 (R&Y) and #2 (B&N).
-- Wired all feeders with orthogonal connectors: Container Sub-DB (40A 4P 30mA RCCB incomer + 8× 20A DP MCBs for rooms/stage/container), North East Sub-DB (25A 4P incomer + 8 feeders: North St/Main St L/R/Pump/Gate Lights/St. Lights SW/Pond/S.Pool), Amphi Sub-DB, Shed OUT, Outdoor Lighting.
-- Added notes block: MCBs C-curve 10kA, Al cables IS 7098/694, earth grid 2.5mm GI bare, spare 5 Mod for 63A 4P OV/UV + Type-2 SPD.
+### What changed (2026-11-15 — restore real page-2 electrical setup + de-congest)
+- RESTORED Page-2 "Panel Layout & Sub-DB Details" from git history (commit f2833e1, before the bad text-box rewrite) so the **real electrical symbols are back**: MCBs, 63A 4-Pole manual changeover, generator inlet 32A 5-Pin IP67, OV/UV protector 63A 4P, Type-2 SPD 40kA, 100A tinned copper busbar (R/Y/B/N/E), central earth pit, Serplex 11x2-Way split hubs #1 (R&Y) and #2 (B&N), Container/North East/Amphi/Shed/Outdoor sub-DBs.
+- Kept Page-1 "Master Electrical SLD" intact (30 vertices / 8 edges).
+- De-congested Page-2 onto a clean uniform grid (all blocks at positive coords, min 60,60; removed scattered negative coords and the X-to-2596/Y-to-1250 spread).
+- All 155 vertices and 82 edges preserved; connectivity, groups, styles, and values unchanged (only translated).
 
 ### Status
-- XML validated (well-formed, 1 diagram, 36 vertices, 29 edges).
+- XML validated (well-formed, 2 diagrams; Page-1 30v/8e, Page-2 155v/82e; no negative coordinates).
 - Committed and pushed to GitHub (main branch).
 - Opens in draw.io web via: https://app.diagrams.net/?github=Vinayrnani/elecplan&file=drawings/farmhouse_electrical_sld_16way_v4.drawio
 
