@@ -47,3 +47,8 @@
 - Box 5: 25A 4P MCB + 5x 6A/16A 1P MCB = 9 Mod
 - Box 6: 20A 1P MCB + 25A 3P MCB + 16A 2P RCBO = 6 Mod
 - Commit 3211213 pushed to GitHub.
+
+## Recent changes (standard mod width in box labels)
+- Added @17.5mm standard mod width specification to all 6 box labels (Box 1-6).
+- Standard DIN rail module = 17.5mm (Schneider, ABB, Legrand, Siemens).
+- Commit b5498d8 pushed to GitHub.
