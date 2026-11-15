@@ -125,14 +125,14 @@ Note: several labels are partially obscured by viewer overlays; lengths are mode
 **Repo:** https://github.com/Vinayrnani/elecplan (PUBLIC)
 **File:** drawings/farmhouse_electrical_sld_16way_v4.drawio
 
-### What changed (2026-11-15 — restore real page-2 electrical setup + de-congest)
-- RESTORED Page-2 "Panel Layout & Sub-DB Details" from git history (commit f2833e1, before the bad text-box rewrite) so the **real electrical symbols are back**: MCBs, 63A 4-Pole manual changeover, generator inlet 32A 5-Pin IP67, OV/UV protector 63A 4P, Type-2 SPD 40kA, 100A tinned copper busbar (R/Y/B/N/E), central earth pit, Serplex 11x2-Way split hubs #1 (R&Y) and #2 (B&N), Container/North East/Amphi/Shed/Outdoor sub-DBs.
+### What changed (2026-11-15 — restore page-2 exactly as original first version)
+- RESTORED Page-2 "Panel Layout & Sub-DB Details" exactly as the original first version (commit f2833e1, before any rewrites) so the **real electrical symbols are back with original positions and wiring**: MCBs, 63A 4-Pole manual changeover, generator inlet 32A 5-Pin IP67, OV/UV protector 63A 4P, Type-2 SPD 40kA, 100A tinned copper busbar (R/Y/B/N/E), central earth pit, Serplex 11x2-Way split hubs #1 (R&Y) and #2 (B&N), Container/North East/Amphi/Shed/Outdoor sub-DBs.
 - Kept Page-1 "Master Electrical SLD" intact (30 vertices / 8 edges).
-- De-congested Page-2 by a uniform translation so every top-level block sits at positive coordinates (min top-level x=60, y=60; negative coords eliminated). The relative layout is preserved — every MCB, changeover, DB, busbar, SPD, and sub-DB stays exactly where it was relative to the others.
-- All 155 vertices and 82 edges preserved; connectivity, groups, styles, and values unchanged (only translated).
+- No repositioning or de-congestion applied — Page-2 is byte-for-byte the original uploaded layout (including original scattered/negative coordinates), so all wire ordering and connections are exactly as first created.
+- All 155 vertices and 82 edges preserved; connectivity, groups, styles, and values unchanged.
 
 ### Status
-- XML validated (well-formed, 2 diagrams; Page-1 30v/8e, Page-2 155v/82e; no top-level negative coordinates).
+- XML validated (well-formed, 2 diagrams; Page-1 30v/8e, Page-2 155v/82e).
 - Committed and pushed to GitHub (main branch).
 - Opens in draw.io web via: https://app.diagrams.net/?github=Vinayrnani/elecplan&file=drawings/farmhouse_electrical_sld_16way_v4.drawio
 
