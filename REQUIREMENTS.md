@@ -19,6 +19,7 @@
 
 ## Recent changes
 - Fixed Page-2 wire routing inside Serplex 11x2 modules: the 5 previously horizontal Serplex edges now use vertical exit/entry points (exitY 0 or 1 instead of 0.5; entryY 0 instead of 0.004). No wire now crosses any module interior; no overlapping segments. Commit d9bd626 + follow-up fix.
+- Added wire numbers 1-82 to all 82 edges, with labels visible at both source (x=0.05) and target (x=0.95) ends. Commit 6eb0477.
 - Installed `electrical` and `electrical-engineering` skills for professional electrical planning.
 
 ## Open tasks
