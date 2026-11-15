@@ -116,3 +116,27 @@ Note: several labels are partially obscured by viewer overlays; lengths are mode
 - 6A/10A SP MCB × 5 (street lights ×3 + pathway ×1 + spare as needed)
 - 6A SP MCB (ESP32 SMPS & sensors)
 - 40A 4P 30mA RCCB (container sub-DB)
+
+---
+
+## Summary of Changes — draw.io Refinement (farmhouse_electrical_sld_16way_v4.drawio)
+
+**Date:** 2026-11-15
+**Repo:** https://github.com/Vinayrnani/elecplan (PUBLIC)
+**File:** drawings/farmhouse_electrical_sld_16way_v4.drawio
+
+### What changed
+- Reduced diagram to **page 2 only** ("Panel Layout & Sub-DB Details") — removed the congested page 1 so the file opens cleanly in draw.io web via GitHub.
+- Rebuilt page 2 with a **tidy modular grid** (consistent cell size, fixed row/column pitch) instead of the previous scattered layout (negative coordinates, X from 115 to 2596, Y from -380 to 1250).
+- Added **missing components**: Grid Incomer with TSSPDCL Energy Meter, Main Isolator (63A 4P), Manual Changeover (63A 4P), Generator Inlet (32A 5-Pin IP67), OV/UV Protector (63A 4P), Type-2 SPD (40kA 4P), Central Earth Pit, 100A Tinned Copper Busbar (R/Y/B/N/E), Serplex 11x2-Way split hubs #1 (R&Y) and #2 (B&N).
+- Wired all feeders with orthogonal connectors: Container Sub-DB (40A 4P 30mA RCCB incomer + 8× 20A DP MCBs for rooms/stage/container), North East Sub-DB (25A 4P incomer + 8 feeders: North St/Main St L/R/Pump/Gate Lights/St. Lights SW/Pond/S.Pool), Amphi Sub-DB, Shed OUT, Outdoor Lighting.
+- Added notes block: MCBs C-curve 10kA, Al cables IS 7098/694, earth grid 2.5mm GI bare, spare 5 Mod for 63A 4P OV/UV + Type-2 SPD.
+
+### Status
+- XML validated (well-formed, 1 diagram, 36 vertices, 29 edges).
+- Committed and pushed to GitHub (main branch).
+- Opens in draw.io web via: https://app.diagrams.net/?github=Vinayrnani/elecplan&file=drawings/farmhouse_electrical_sld_16way_v4.drawio
+
+### Pending
+- Custom BOM Excel sheet (.xlsx) — deferred per user ("no excel for now").
+
