@@ -486,37 +486,25 @@
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-74" edge="1" parent="1" source="serp_R_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#DC2626;exitX=0.5;exitY=0;entryX=0.15;entryY=0;" target="yXBHUCvxf5Sa-6nLvMf1-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1036.50" y="305.00" />
-              <mxPoint x="1622.50" y="305.00" />
-            </Array>
+              <mxPoint x="1036.5" y="300.0" /><mxPoint x="1622.5" y="300.0" /></Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-75" edge="1" parent="1" source="serp_Y_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#CA8A04;exitX=0.5;exitY=1;entryX=0.38;entryY=0;" target="yXBHUCvxf5Sa-6nLvMf1-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1036.50" y="505.00" />
-              <mxPoint x="1552.50" y="505.00" />
-              <mxPoint x="1552.50" y="290.00" />
-              <mxPoint x="1640.50" y="290.00" />
-            </Array>
+              <mxPoint x="1036.5" y="500.0" /><mxPoint x="1552.5" y="500.0" /><mxPoint x="1552.5" y="280.0" /><mxPoint x="1640.5" y="280.0" /></Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-76" edge="1" parent="1" source="serp_B_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#2563EB;exitX=0.5;exitY=0;entryX=0.62;entryY=0;" target="yXBHUCvxf5Sa-6nLvMf1-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1336.50" y="275.00" />
-              <mxPoint x="1660.50" y="275.00" />
-            </Array>
+              <mxPoint x="1336.5" y="290.0" /><mxPoint x="1660.5" y="290.0" /></Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-77" edge="1" parent="1" source="serp_N_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#1E293B;exitX=0.5;exitY=1;entryX=0.85;entryY=0;" target="yXBHUCvxf5Sa-6nLvMf1-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1336.50" y="515.00" />
-              <mxPoint x="1567.50" y="515.00" />
-              <mxPoint x="1567.50" y="260.00" />
-              <mxPoint x="1678.50" y="260.00" />
-            </Array>
+              <mxPoint x="1336.5" y="510.0" /><mxPoint x="1567.5" y="510.0" /><mxPoint x="1567.5" y="270.0" /><mxPoint x="1678.5" y="270.0" /></Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-78" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.147;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.147;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#FF3333;" target="yRYTGthP2hCRk4MGjQCh-75">
@@ -995,7 +983,7 @@
           <mxGeometry height="50" width="80" x="1777.00" y="821.34" as="geometry" />
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-216" edge="1" parent="1" source="yRYTGthP2hCRk4MGjQCh-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.147;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#FF3333;" target="yXBHUCvxf5Sa-6nLvMf1-157">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry"><Array as="points" /></mxGeometry>
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-217" edge="1" parent="1" source="yRYTGthP2hCRk4MGjQCh-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.4;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#FFD966;" target="yXBHUCvxf5Sa-6nLvMf1-165">
           <mxGeometry relative="1" as="geometry">
