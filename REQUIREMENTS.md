@@ -40,3 +40,10 @@
 - Removed all 178 old edge labels and re-added 164 labels (82 source + 82 target) with perpendicular offset (-12px) to avoid overlapping arrow heads.
 - Labels positioned at x=0 (source exit) and x=1 (target entry) with y=-12 perpendicular offset.
 - Commit 886e1ee pushed to GitHub.
+
+## Recent changes (sub-DB box labels with mod counts)
+- Updated Box 4, 5, 6 labels to include modular (mod) counts matching Box 1-3 format.
+- Box 4: 40A 4P RCCB + 9x 20A 1P MCB + 6A 1P MCB = 13 Mod
+- Box 5: 25A 4P MCB + 5x 6A/16A 1P MCB = 9 Mod
+- Box 6: 20A 1P MCB + 25A 3P MCB + 16A 2P RCBO = 6 Mod
+- Commit 3211213 pushed to GitHub.
