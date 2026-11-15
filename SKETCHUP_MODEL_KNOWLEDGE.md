@@ -125,17 +125,19 @@ Note: several labels are partially obscured by viewer overlays; lengths are mode
 **Repo:** https://github.com/Vinayrnani/elecplan (PUBLIC)
 **File:** drawings/farmhouse_electrical_sld_16way_v4.drawio
 
-### What changed (2026-11-15 — restore page-2 exactly as original first version)
-- RESTORED Page-2 "Panel Layout & Sub-DB Details" exactly as the original first version (commit f2833e1, before any rewrites) so the **real electrical symbols are back with original positions and wiring**: MCBs, 63A 4-Pole manual changeover, generator inlet 32A 5-Pin IP67, OV/UV protector 63A 4P, Type-2 SPD 40kA, 100A tinned copper busbar (R/Y/B/N/E), central earth pit, Serplex 11x2-Way split hubs #1 (R&Y) and #2 (B&N), Container/North East/Amphi/Shed/Outdoor sub-DBs.
-- Kept Page-1 "Master Electrical SLD" intact (30 vertices / 8 edges).
-- No repositioning or de-congestion applied — Page-2 is byte-for-byte the original uploaded layout (including original scattered/negative coordinates), so all wire ordering and connections are exactly as first created.
-- All 155 vertices and 82 edges preserved; connectivity, groups, styles, and values unchanged.
+### What changed (2026-11-15 — accept remote state a3f88cb + fix page-2 rendering)
+- Accepted remote state (commit a3f88cb): Page-1 removed, Page-2 intact (155 vertices / 82 edges) with real electrical symbols (MCBs, 63A 4-Pole manual changeover, generator inlet 32A 5-Pin IP67, OV/UV protector 63A 4P, Type-2 SPD 40kA, 100A tinned copper busbar R/Y/B/N/E, central earth pit, Serplex 11x2-Way split hubs #1 R&Y and #2 B&N, Container/North East/Amphi/Shed/Outdoor sub-DBs). Page-2 re-serialized by draw.io web with new cell IDs.
+- FIXED negative coordinates: uniformly translated all top-level cells so min top-level x,y → 60,60 (27 vertices were off-canvas causing 'blank page' appearance). Relative layout preserved.
+- FIXED dangling edge bNfMxfX9K-qKM2XH7_Ha-55: added missing exitX=0.5;exitY=0 (was an open/disconnected wire).
+- Overlapping edge groups already staggered (different exit/entry points) — no change needed.
+- All 82 edges have valid source/target references.
 
 ### Status
-- XML validated (well-formed, 2 diagrams; Page-1 30v/8e, Page-2 155v/82e).
+- XML validated (well-formed, 1 diagram Page-2; 155 vertices / 82 edges; 0 top-level negative coordinates).
 - Committed and pushed to GitHub (main branch).
 - Opens in draw.io web via: https://app.diagrams.net/?github=Vinayrnani/elecplan&file=drawings/farmhouse_electrical_sld_16way_v4.drawio
 
 ### Pending
 - Custom BOM Excel sheet (.xlsx) — deferred per user ("no excel for now").
+- Awaiting your instructions on what updates to make next to Page-2.
 

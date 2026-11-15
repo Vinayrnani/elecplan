@@ -10,16 +10,17 @@
 - `engineering` — professional electrical schematics / electrical planning stencils
 
 ## Files
-- drawings/farmhouse_electrical_sld_16way_v4.drawio — refined SLD: Page-1 Master Electrical SLD kept intact; Page-2 Panel Layout & Sub-DB Details restored exactly as the original first version (commit f2833e1) with REAL electrical symbols (MCBs, 63A 4P changeover, generator inlet 32A 5-Pin IP67, OV/UV protector, Type-2 SPD, 100A busbar, Serplex split hubs, earth pit, sub-DBs) and original positions/wiring untouched; all 155 vertices / 82 edges preserved
+- drawings/farmhouse_electrical_sld_16way_v4.drawio — Page-1 removed (per remote state a3f88cb); Page-2 Panel Layout & Sub-DB Details with REAL electrical symbols (MCBs, 63A 4P changeover, generator inlet 32A 5-Pin IP67, OV/UV protector, Type-2 SPD, 100A busbar, Serplex split hubs, earth pit, sub-DBs). Negative coordinates fixed (uniform shift so min top-level x,y → 60,60; relative layout preserved). Dangling edge bNfMxfX9K-qKM2XH7_Ha-55 fixed (added exitX=0.5;exitY=0). All 155 vertices / 82 edges preserved; re-serialized by draw.io web with new cell IDs.
 - drawings/Central_DB_SLD.drawio / .pdf / .svg — legacy Central DB SLD
 - SKETCHUP_MODEL_KNOWLEDGE.md — project knowledge + summary of changes
 - REQUIREMENTS.md — this file (update for every change/new requirement)
 
 ## Open tasks
-1. [x] Restore page-2 real electrical setup (MCB/changeover/DB) + de-congest grid + fix negative coords; keep page-1
-2. [ ] Create custom BOM as Excel sheet (.xlsx) — user said "no excel for now"
-3. [x] Push draw.io to GitHub on every change
-4. [x] Write summary of changes in SKETCHUP_MODEL_KNOWLEDGE.md (project knowledge)
+1. [x] Accept remote state (Page-1 removed, Page-2 intact with real electrical symbols)
+2. [x] Fix Page-2 negative coordinates (uniform shift min top-level x,y → 60,60)
+3. [x] Fix dangling edge bNfMxfX9K-qKM2XH7_Ha-55 (added exitX=0.5;exitY=0)
+4. [ ] Create custom BOM as Excel sheet (.xlsx) — user said "no excel for now"
+5. [ ] Awaiting user instructions on what updates to make next to Page-2
 
 ## Rules
 - Never compress context.
