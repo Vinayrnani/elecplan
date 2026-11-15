@@ -57,3 +57,10 @@
 - Added Way notation to Box 4 (13-Way), Box 5 (9-Way), Box 6 (6-Way) labels.
 - All 6 boxes now follow "X-Way Box N: Name" format.
 - Commit 40a4a63 pushed to GitHub.
+
+## Recent changes (standard enclosure sizes)
+- Changed Box 4 from 13-Way to 16-Way (standard size, 13 mods used)
+- Changed Box 5 from 9-Way to 12-Way (standard size, 9 mods used)
+- Box 6 stays 6-Way (standard size, 6 mods used)
+- Standard DB enclosure sizes: 4, 6, 8, 12, 16, 24, 36, 48, 72 Way
+- Commit 28a6555 pushed to GitHub.
