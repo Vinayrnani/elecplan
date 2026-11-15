@@ -18,7 +18,7 @@
 - REQUIREMENTS.md — this file (update for every change/new requirement)
 
 ## Recent changes
-- Fixed Page-2 wire routing inside Serplex 11x2 modules: all 5 Serplex-connected edges now use vertical exit/entry points (exitY 0 or 1 instead of 0.5; entryY 0 instead of 0.004). No wire now crosses any module interior; no overlapping segments. Commit d9bd626.
+- Fixed Page-2 wire routing inside Serplex 11x2 modules: the 5 previously horizontal Serplex edges now use vertical exit/entry points (exitY 0 or 1 instead of 0.5; entryY 0 instead of 0.004). No wire now crosses any module interior; no overlapping segments. Commit d9bd626 + follow-up fix.
 - Installed `electrical` and `electrical-engineering` skills for professional electrical planning.
 
 ## Open tasks
