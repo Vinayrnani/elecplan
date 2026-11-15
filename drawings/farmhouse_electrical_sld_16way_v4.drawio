@@ -20,13 +20,13 @@
         <mxCell id="box16_serplex" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=auto;opacity=30;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="580" width="632.5" x="940" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="lbl_box16_serplex" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" value="&lt;b&gt;16-Way Box 2: Serplex 11x2-Way Split Hub&lt;/b&gt;&lt;br&gt;(2x 10cm Units = 4 Bars x 11 Terminals)" vertex="1">
+        <mxCell id="lbl_box16_serplex" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" value="&lt;b&gt;16-Way Box 2: Serplex 11x2-Way Split Hub&lt;/b&gt;&lt;br&gt;(2x 10cm Units = 4 Bars x 11 Terminals @17.5mm)" vertex="1">
           <mxGeometry height="40" width="580" x="972.5" y="70" as="geometry" />
         </mxCell>
         <mxCell id="box16_feeders" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=auto;opacity=30;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="580" width="740" x="1592.5" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="lbl_box16_feeders" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" value="&lt;b&gt;16-Way Box 3: Outgoing Feeders&lt;/b&gt;&lt;br&gt;(40A 4P + 25A 4P + 32A 2P + 25A 3P + Lights = 16 Mod)" vertex="1">
+        <mxCell id="lbl_box16_feeders" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" value="&lt;b&gt;16-Way Box 3: Outgoing Feeders&lt;/b&gt;&lt;br&gt;(40A 4P + 25A 4P + 32A 2P + 25A 3P + Lights = 16 Mod @17.5mm)" vertex="1">
           <mxGeometry height="40" width="700" x="1612.5" y="70" as="geometry" />
         </mxCell>
         <mxCell id="serplex_11x2_unit1" connectable="0" parent="1" style="group;rounded=1;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=2;verticalAlign=top;fontSize=11;fontColor=#1E3A8A;spacingTop=4;" value="&lt;b&gt;Serplex 11x2-Way #1 (R &amp; Y)&lt;/b&gt;" vertex="1">
@@ -643,7 +643,7 @@
         <mxCell id="bNfMxfX9K-qKM2XH7_Ha-49" parent="yRYTGthP2hCRk4MGjQCh-67" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.twoWayContact2;elSwitchState=2;labelPerimeter=1;rotation=90;" value="" vertex="1">
           <mxGeometry height="10" width="50" x="65" as="geometry" />
         </mxCell>
-        <mxCell id="yRYTGthP2hCRk4MGjQCh-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;8-Way Box 1: Incomer&lt;/b&gt;&lt;br&gt;(amiciSmart 63A 4P Changeover [72mm / 4 Mod] + 63A 4P MCB [4 Mod])" vertex="1">
+        <mxCell id="yRYTGthP2hCRk4MGjQCh-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;8-Way Box 1: Incomer&lt;/b&gt;&lt;br&gt;(amiciSmart 63A 4P Changeover [72mm / 4 Mod @17.5mm] + 63A 4P MCB [4 Mod @17.5mm])" vertex="1">
           <mxGeometry height="50" width="320" x="560" y="70" as="geometry" />
         </mxCell>
         <mxCell id="yRYTGthP2hCRk4MGjQCh-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Container Sub Distribution Board" vertex="1">
@@ -1842,7 +1842,7 @@
         <mxCell id="box1_ovuv_spd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#DC2626;strokeWidth=1.5;fontSize=11;" value="&lt;b&gt;Box 2 Spare 5 Mod:&lt;/b&gt; Fit &lt;b&gt;63A 4P OV/UV Protector (4 Mod)&lt;/b&gt; here between 63A MCB &amp;amp; Serplex #1 (Optional: Type-2 SPD)" vertex="1">
           <mxGeometry height="55" width="550" x="968.5" y="-60" as="geometry" />
         </mxCell>
-      <mxCell id="lbl_box4_container" value="&lt;b&gt;Box 4: Container Sub Distribution Board&lt;/b&gt;&lt;br&gt;(40A 4P RCCB + 9x 20A 1P MCB + 6A 1P MCB = 13 Mod)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="268.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box5_ne" value="&lt;b&gt;Box 5: North East Sub Distribution Board&lt;/b&gt;&lt;br&gt;(25A 4P MCB + 5x 6A/16A 1P MCB = 9 Mod)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1425.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box6_amphi" value="&lt;b&gt;Box 6: Amphi Sub Distribution Board&lt;/b&gt;&lt;br&gt;(20A 1P MCB + 25A 3P MCB + 16A 2P RCBO = 6 Mod)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2482.0" y="500.0" width="360.0" height="40.0" as="geometry" /></mxCell></root>
+      <mxCell id="lbl_box4_container" value="&lt;b&gt;Box 4: Container Sub Distribution Board&lt;/b&gt;&lt;br&gt;(40A 4P RCCB + 9x 20A 1P MCB + 6A 1P MCB = 13 Mod @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="268.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box5_ne" value="&lt;b&gt;Box 5: North East Sub Distribution Board&lt;/b&gt;&lt;br&gt;(25A 4P MCB + 5x 6A/16A 1P MCB = 9 Mod @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1425.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box6_amphi" value="&lt;b&gt;Box 6: Amphi Sub Distribution Board&lt;/b&gt;&lt;br&gt;(20A 1P MCB + 25A 3P MCB + 16A 2P RCBO = 6 Mod @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2482.0" y="500.0" width="360.0" height="40.0" as="geometry" /></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>
