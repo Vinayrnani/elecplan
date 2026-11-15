@@ -1842,7 +1842,7 @@
         <mxCell id="box1_ovuv_spd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#DC2626;strokeWidth=1.5;fontSize=11;" value="&lt;b&gt;Box 2 Spare 5 Mod:&lt;/b&gt; Fit &lt;b&gt;63A 4P OV/UV Protector (4 Mod)&lt;/b&gt; here between 63A MCB &amp;amp; Serplex #1 (Optional: Type-2 SPD)" vertex="1">
           <mxGeometry height="55" width="550" x="968.5" y="-60" as="geometry" />
         </mxCell>
-      </root>
+      <mxCell id="lbl_box4_container" value="&lt;b&gt;Box 4: Container Sub Distribution Board&lt;/b&gt;&lt;br&gt;(40A 4P RCCB + Room MCBs + Stage Sockets)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="268.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box5_ne" value="&lt;b&gt;Box 5: North East Sub Distribution Board&lt;/b&gt;&lt;br&gt;(Street Lights + Gate + Pump + Amphi)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1425.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box6_amphi" value="&lt;b&gt;Box 6: Amphi Sub Distribution Board&lt;/b&gt;&lt;br&gt;(20A MCB + Sound/Projector)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2482.0" y="500.0" width="360.0" height="40.0" as="geometry" /></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>
