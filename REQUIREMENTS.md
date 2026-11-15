@@ -35,3 +35,8 @@
 - Update REQUIREMENTS.md for every change or new requirement; refer to it when context is lost.
 - Commit and push to GitHub by default after every change.
 - draw.io must open correctly in app.diagrams.net via GitHub.
+
+## Recent changes (wire numbering)
+- Removed all 178 old edge labels and re-added 164 labels (82 source + 82 target) with perpendicular offset (-12px) to avoid overlapping arrow heads.
+- Labels positioned at x=0 (source exit) and x=1 (target entry) with y=-12 perpendicular offset.
+- Commit 886e1ee pushed to GitHub.
