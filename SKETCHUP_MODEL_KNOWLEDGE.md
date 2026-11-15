@@ -129,6 +129,7 @@ Note: several labels are partially obscured by viewer overlays; lengths are mode
 - Accepted remote state (commit a3f88cb): Page-1 removed, Page-2 intact (155 vertices / 82 edges) with real electrical symbols (MCBs, 63A 4-Pole manual changeover, generator inlet 32A 5-Pin IP67, OV/UV protector 63A 4P, Type-2 SPD 40kA, 100A tinned copper busbar R/Y/B/N/E, central earth pit, Serplex 11x2-Way split hubs #1 R&Y and #2 B&N, Container/North East/Amphi/Shed/Outdoor sub-DBs). Page-2 re-serialized by draw.io web with new cell IDs.
 - FIXED negative coordinates: uniformly translated all top-level cells so min top-level x,y → 60,60 (27 vertices were off-canvas causing 'blank page' appearance). Relative layout preserved.
 - FIXED dangling edge bNfMxfX9K-qKM2XH7_Ha-55: added missing exitX=0.5;exitY=0 (was an open/disconnected wire).
+- FIXED all 161 edge waypoints: shifted by (142.5, 440) to match the node coordinate shift (were at old pre-shift coordinates causing wires to route to wrong places).
 - Overlapping edge groups already staggered (different exit/entry points) — no change needed.
 - All 82 edges have valid source/target references.
 
