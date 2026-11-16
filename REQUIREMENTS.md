@@ -64,3 +64,11 @@
 - Box 6 stays 6-Way (standard size, 6 mods used)
 - Standard DB enclosure sizes: 4, 6, 8, 12, 16, 24, 36, 48, 72 Way
 - Commit 28a6555 pushed to GitHub.
+
+## Recent changes (street light MCB consolidation)
+- Removed Main St L MCB, kept single Main St MCB (renamed from Main St R)
+- Removed associated Main Lane Left street light icon
+- Each street light MCB now labeled: 8 lights x 36W (288W = 1.25A, well within 6A)
+- MCBs: North St, Main St, Gate Lights (each 6A, 8 lights)
+- Box 5 updated: 25A 4P MCB + 4x 6A/16A 1P MCB = 8 Mod used
+- Commit 7207c24 pushed to GitHub.
