@@ -1019,9 +1019,6 @@
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-95" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;br&gt;North St" vertex="1">
           <mxGeometry height="50" width="9" x="1722.5" y="1270" as="geometry" />
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-127" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#3333FF;" target="yXBHUCvxf5Sa-6nLvMf1-126">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="wirenum_src_45" connectable="0" parent="yXBHUCvxf5Sa-6nLvMf1-127" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="45" vertex="1">
           <mxGeometry relative="1" x="-0.93" as="geometry">
             <mxPoint as="offset" />
@@ -1031,9 +1028,6 @@
           <mxGeometry relative="1" x="0.92" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-99" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;br&gt;Main St L" vertex="1">
-          <mxGeometry height="50" width="9" x="1784.5" y="1270" as="geometry" />
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-144" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.333333;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#CA8A04;" target="yXBHUCvxf5Sa-6nLvMf1-142">
           <mxGeometry relative="1" as="geometry" />
@@ -1048,7 +1042,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-100" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;div&gt;Main St R&lt;/div&gt;" vertex="1">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-100" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;br&gt;Main St" vertex="1">
           <mxGeometry height="50" width="9" x="1844.5" y="1270" as="geometry" />
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-154" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#FF3333;" target="yXBHUCvxf5Sa-6nLvMf1-152">
@@ -1155,14 +1149,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-118" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.666667;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#3333FF;" target="yXBHUCvxf5Sa-6nLvMf1-99">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1727" y="1220" />
-              <mxPoint x="1789" y="1220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="wirenum_src_53" connectable="0" parent="yXBHUCvxf5Sa-6nLvMf1-118" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="53" vertex="1">
           <mxGeometry relative="1" x="-0.93" as="geometry">
             <mxPoint as="offset" />
@@ -1181,9 +1167,6 @@
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-120" parent="yXBHUCvxf5Sa-6nLvMf1-121" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=ellipse;perimeter=ellipsePerimeter;labelPerimeter=1;" value="" vertex="1">
           <mxGeometry height="15" width="15" x="25" as="geometry" />
-        </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-124" connectable="0" parent="1" style="group" value="&#10;Main Lane&#10;Left side&#10;Street light" vertex="1">
-          <mxGeometry height="15" width="40" x="1784.5" y="1620" as="geometry" />
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-125" parent="yXBHUCvxf5Sa-6nLvMf1-124" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=ellipse;perimeter=ellipsePerimeter;labelPerimeter=1;" value="" vertex="1">
           <mxGeometry height="15" width="15" as="geometry" />
@@ -1842,7 +1825,7 @@
         <mxCell id="box1_ovuv_spd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#DC2626;strokeWidth=1.5;fontSize=11;" value="&lt;b&gt;Box 2 Spare 5 Mod:&lt;/b&gt; Fit &lt;b&gt;63A 4P OV/UV Protector (4 Mod)&lt;/b&gt; here between 63A MCB &amp;amp; Serplex #1 (Optional: Type-2 SPD)" vertex="1">
           <mxGeometry height="55" width="550" x="968.5" y="-60" as="geometry" />
         </mxCell>
-      <mxCell id="lbl_box4_container" value="&lt;b&gt;16-Way Box 4: Container Sub Distribution Board&lt;/b&gt;&lt;br&gt;(40A 4P RCCB + 9x 20A 1P MCB + 6A 1P MCB = 13 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="268.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box5_ne" value="&lt;b&gt;12-Way Box 5: North East Sub Distribution Board&lt;/b&gt;&lt;br&gt;(25A 4P MCB + 5x 6A/16A 1P MCB = 9 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1425.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box6_amphi" value="&lt;b&gt;6-Way Box 6: Amphi Sub Distribution Board&lt;/b&gt;&lt;br&gt;(20A 1P MCB + 25A 3P MCB + 16A 2P RCBO = 6 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2482.0" y="500.0" width="360.0" height="40.0" as="geometry" /></mxCell></root>
+      <mxCell id="lbl_box4_container" value="&lt;b&gt;16-Way Box 4: Container Sub Distribution Board&lt;/b&gt;&lt;br&gt;(40A 4P RCCB + 9x 20A 1P MCB + 6A 1P MCB = 13 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="268.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box5_ne" value="&lt;b&gt;12-Way Box 5: North East Sub Distribution Board&lt;/b&gt;&lt;br&gt;(25A 4P MCB + 4x 6A/16A 1P MCB = 8 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1425.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box6_amphi" value="&lt;b&gt;6-Way Box 6: Amphi Sub Distribution Board&lt;/b&gt;&lt;br&gt;(20A 1P MCB + 25A 3P MCB + 16A 2P RCBO = 6 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2482.0" y="500.0" width="360.0" height="40.0" as="geometry" /></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>
