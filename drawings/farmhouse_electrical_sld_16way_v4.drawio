@@ -1016,7 +1016,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-95" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;br&gt;North St" vertex="1">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-95" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;br&gt;North St&lt;br&gt;(8 lights x 36W)" vertex="1">
           <mxGeometry height="50" width="9" x="1722.5" y="1270" as="geometry" />
         </mxCell>
         <mxCell id="wirenum_src_45" connectable="0" parent="yXBHUCvxf5Sa-6nLvMf1-127" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="45" vertex="1">
@@ -1042,7 +1042,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-100" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;br&gt;Main St" vertex="1">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-100" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;br&gt;Main St&lt;br&gt;(8 lights x 36W)" vertex="1">
           <mxGeometry height="50" width="9" x="1844.5" y="1270" as="geometry" />
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-154" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeColor=#FF3333;" target="yXBHUCvxf5Sa-6nLvMf1-152">
@@ -1074,7 +1074,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-102" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;br&gt;Gate Lights" vertex="1">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-102" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;br&gt;Gate Lights&lt;br&gt;(8 lights x 36W)" vertex="1">
           <mxGeometry height="50" width="9" x="1924.5" y="1270" as="geometry" />
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-107" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.147;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#FF3333;" target="yXBHUCvxf5Sa-6nLvMf1-101">
