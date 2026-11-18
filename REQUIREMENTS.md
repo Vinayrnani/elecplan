@@ -28,7 +28,7 @@
 3. [x] Fix dangling edge bNfMxfX9K-qKM2XH7_Ha-55 (added exitX=0.5;exitY=0)
 4. [x] Fix Serplex module wire routing (vertical exits/entries, no crossings)
 5. [ ] Create custom BOM as Excel sheet (.xlsx) — user said "no excel for now"
-6. [ ] Awaiting user instructions on what updates to make next to Page-2
+6. [x] Applied neutral-direct pole reduction to Page-2 (4P→3P ×4, 3P→2P ×2, 2P→1P ×2); neutral bypasses MCBs to Neutral Link; removed neutral pass-through wires 63 & 70; updated box mod-count labels; RCCB/changeover/RCBO left untouched.
 
 ## Rules
 - Never compress context.
@@ -72,3 +72,12 @@
 - MCBs: North St, Main St, Gate Lights (each 6A, 8 lights)
 - Box 5 updated: 25A 4P MCB + 4x 6A/16A 1P MCB = 8 Mod used
 - Commit 7207c24 pushed to GitHub.
+
+## Recent changes (neutral-direct pole reduction)
+- Reduced pole counts on Page-2 per "neutral direct, reduce poles" philosophy: 4P→3P (×4: 63A/40A/25A/25A MCB), 3P→2P (×2: 25A MCB), 2P→1P (×2: 32A/20A Amphi). Neutral now bypasses all MCBs to Neutral Link.
+- Removed neutral pass-through wires 63 (serp_N_5→187 N) and 70 (187 N→202 N). Neutral now terminates at Neutral Link groups only.
+- Updated box mod-count labels: Box 1 = 7 Mod, Box 3 = 13 Mod, Box 5 = 10 Mod, Box 6 = 5 Mod.
+- Marked OV/UV Protector + Type-2 SPD as OPTIONAL / NOT INSTALLED.
+- Conflicts untouched: RCCB (4P, RCD needs neutral through sensor), changeover (4P, neutral must switch), RCBO pool pump (2P).
+- XML validated: well-formed, 0 invalid/dangling edge references.
+- Commit pending.

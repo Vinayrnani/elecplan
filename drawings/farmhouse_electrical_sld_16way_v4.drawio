@@ -26,7 +26,7 @@
         <mxCell id="box16_feeders" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=auto;opacity=30;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="580" width="740" x="1592.5" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="lbl_box16_feeders" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" value="&lt;b&gt;16-Way Box 3: Outgoing Feeders&lt;/b&gt;&lt;br&gt;(40A 4P + 25A 4P + 32A 2P + 25A 3P + Lights = 16 Mod @17.5mm)" vertex="1">
+        <mxCell id="lbl_box16_feeders" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" value="&lt;b&gt;16-Way Box 3: Outgoing Feeders&lt;/b&gt;&lt;br&gt;(40A 3P + 25A 3P + 32A 1P + 25A 3P + Lights = 13 Mod @17.5mm)" vertex="1">
           <mxGeometry height="40" width="700" x="1612.5" y="70" as="geometry" />
         </mxCell>
         <mxCell id="serplex_11x2_unit1" connectable="0" parent="1" style="group;rounded=1;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=2;verticalAlign=top;fontSize=11;fontColor=#1E3A8A;spacingTop=4;" value="&lt;b&gt;Serplex 11x2-Way #1 (R &amp; Y)&lt;/b&gt;" vertex="1">
@@ -380,7 +380,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bNfMxfX9K-qKM2XH7_Ha-35" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_4p;labelPerimeter=1;points=[[0.147,0,0,0,0],[0.147,1,0,0,0],[0.375,1,0,0,0],[0.4,0,0,0,0],[0.6345,0,0,0,0],[0.6345,1,0,0,0],[0.875,0,0,0,0],[0.875,1,0,0,0]];" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;4 Pole 63 A MCB C Curve" vertex="1">
+        <mxCell id="bNfMxfX9K-qKM2XH7_Ha-35" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_3p;labelPerimeter=1;points=[[0.15,1,0,0,0],[0.2,0,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.833333,0,0,0,0],[0.833333,1,0,0,0]];" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;3 Pole 63 A MCB C Curve" vertex="1">
           <mxGeometry height="90" width="80" x="770" y="380" as="geometry" />
         </mxCell>
         <mxCell id="bNfMxfX9K-qKM2XH7_Ha-42" connectable="0" parent="1" style="group" value="" vertex="1">
@@ -440,7 +440,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bNfMxfX9K-qKM2XH7_Ha-54" edge="1" parent="1" source="bNfMxfX9K-qKM2XH7_Ha-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.147;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;fillColor=#FF3333;strokeColor=#FF3333;" target="bNfMxfX9K-qKM2XH7_Ha-35">
+        <mxCell id="bNfMxfX9K-qKM2XH7_Ha-54" edge="1" parent="1" source="bNfMxfX9K-qKM2XH7_Ha-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;fillColor=#FF3333;strokeColor=#FF3333;" target="bNfMxfX9K-qKM2XH7_Ha-35">
           <mxGeometry relative="1" x="-0.2758" as="geometry">
             <Array as="points">
               <mxPoint x="625" y="300" />
@@ -601,7 +601,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bNfMxfX9K-qKM2XH7_Ha-141" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_2p;labelPerimeter=1;points=[[0.222222,0,0,0,0],[0.222222,1,0,0,0],[0.777778,0,0,0,0],[0.777778,1,0,0,0]];" value="32A MCB" vertex="1">
+        <mxCell id="bNfMxfX9K-qKM2XH7_Ha-141" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="1P 32A MCB" vertex="1">
           <mxGeometry height="50" width="18" x="1913.5" y="372.5" as="geometry" />
         </mxCell>
         <mxCell id="bNfMxfX9K-qKM2XH7_Ha-163" connectable="0" parent="1" style="group" value="&#10;Shed OUT&#10;6 Sqmm" vertex="1">
@@ -643,7 +643,7 @@
         <mxCell id="bNfMxfX9K-qKM2XH7_Ha-49" parent="yRYTGthP2hCRk4MGjQCh-67" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.twoWayContact2;elSwitchState=2;labelPerimeter=1;rotation=90;" value="" vertex="1">
           <mxGeometry height="10" width="50" x="65" as="geometry" />
         </mxCell>
-        <mxCell id="yRYTGthP2hCRk4MGjQCh-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;8-Way Box 1: Incomer&lt;/b&gt;&lt;br&gt;(amiciSmart 63A 4P Changeover [72mm / 4 Mod @17.5mm] + 63A 4P MCB [4 Mod @17.5mm])" vertex="1">
+        <mxCell id="yRYTGthP2hCRk4MGjQCh-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;7-Way Box 1: Incomer&lt;/b&gt;&lt;br&gt;(amiciSmart 63A 4P Changeover [72mm / 4 Mod @17.5mm] + 63A 3P MCB [3 Mod @17.5mm])" vertex="1">
           <mxGeometry height="50" width="320" x="560" y="70" as="geometry" />
         </mxCell>
         <mxCell id="yRYTGthP2hCRk4MGjQCh-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Container Sub Distribution Board" vertex="1">
@@ -665,7 +665,7 @@
         <mxCell id="yRYTGthP2hCRk4MGjQCh-75" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_4p;labelPerimeter=1;points=[[0.147,0,0,0,0],[0.147,1,0,0,0],[0.375,1,0,0,0],[0.4,0,0,0,0],[0.6345,0,0,0,0],[0.6345,1,0,0,0],[0.875,0,0,0,0],[0.875,1,0,0,0]];" value="4 Pole 40 A&lt;br&gt;30mA RCCB" vertex="1">
           <mxGeometry height="90" width="80" x="292.5" y="1240" as="geometry" />
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-11" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_4p;labelPerimeter=1;points=[[0.147,0,0,0,0],[0.147,1,0,0,0],[0.375,1,0,0,0],[0.4,0,0,0,0],[0.6345,0,0,0,0],[0.6345,1,0,0,0],[0.875,0,0,0,0],[0.875,1,0,0,0]];" value="4 Pole 40 A MCB C Curve" vertex="1">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-11" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_3p;labelPerimeter=1;points=[[0.15,1,0,0,0],[0.2,0,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.833333,0,0,0,0],[0.833333,1,0,0,0]];" value="3 Pole 40 A MCB C Curve" vertex="1">
           <mxGeometry height="90" width="80" x="1610.5" y="360" as="geometry" />
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-74" edge="1" parent="1" source="serp_R_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#DC2626;exitX=0.5;exitY=0;entryX=0.15;entryY=0;" target="yXBHUCvxf5Sa-6nLvMf1-11">
@@ -824,10 +824,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-82" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_4p;labelPerimeter=1;points=[[0.147,0,0,0,0],[0.147,1,0,0,0],[0.375,1,0,0,0],[0.4,0,0,0,0],[0.6345,0,0,0,0],[0.6345,1,0,0,0],[0.875,0,0,0,0],[0.875,1,0,0,0]];" value="4 Pole 25 A MCB C Curve" vertex="1">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-82" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_3p;labelPerimeter=1;points=[[0.15,1,0,0,0],[0.2,0,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.833333,0,0,0,0],[0.833333,1,0,0,0]];" value="3 Pole 25 A MCB C Curve" vertex="1">
           <mxGeometry height="90" width="80" x="1762.5" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-84" edge="1" parent="1" source="serp_R_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;entryX=0.147;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" target="yXBHUCvxf5Sa-6nLvMf1-82">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-84" edge="1" parent="1" source="serp_R_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;entryX=0.15;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" target="yXBHUCvxf5Sa-6nLvMf1-82">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1057.5" y="230" />
@@ -919,10 +919,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-90" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_4p;labelPerimeter=1;points=[[0.147,0,0,0,0],[0.147,1,0,0,0],[0.375,1,0,0,0],[0.4,0,0,0,0],[0.6345,0,0,0,0],[0.6345,1,0,0,0],[0.875,0,0,0,0],[0.875,1,0,0,0]];" value="4 Pole 25 A MCB C Curve" vertex="1">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-90" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_3p;labelPerimeter=1;points=[[0.15,1,0,0,0],[0.2,0,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.833333,0,0,0,0],[0.833333,1,0,0,0]];" value="3 Pole 25 A MCB C Curve" vertex="1">
           <mxGeometry height="90" width="80" x="1467.5" y="1260" as="geometry" />
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-91" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.147;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.147;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#FF3333;" target="yXBHUCvxf5Sa-6nLvMf1-90">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-91" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.15;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#FF3333;" target="yXBHUCvxf5Sa-6nLvMf1-90">
           <mxGeometry relative="1" x="-0.2309" as="geometry">
             <Array as="points">
               <mxPoint x="1772.5" y="450" />
@@ -1342,13 +1342,13 @@
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-175" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;div&gt;East St&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="9" x="2162.5" y="365" as="geometry" />
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-183" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_2p;labelPerimeter=1;points=[[0.333333,0,0,0,0],[0.333333,1,0,0,0],[0.666667,0,0,0,0],[0.666667,1,0,0,0]];" value="20A MCB&lt;br&gt;Amphi" vertex="1">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-183" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="1P 20A MCB Amphi" vertex="1">
           <mxGeometry height="50" width="18" x="2738.5" y="730" as="geometry" />
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-184" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="6A MCB&lt;br&gt;St. Lights&lt;br&gt;South-West" vertex="1">
           <mxGeometry height="50" width="9" x="922.5" y="1250" as="geometry" />
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-185" edge="1" parent="1" source="serp_R_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.222222;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#FF3333;" target="bNfMxfX9K-qKM2XH7_Ha-141">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-185" edge="1" parent="1" source="serp_R_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#FF3333;" target="bNfMxfX9K-qKM2XH7_Ha-141">
           <mxGeometry relative="1" x="-0.103" as="geometry">
             <Array as="points">
               <mxPoint x="1078.5" y="215" />
@@ -1388,10 +1388,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-187" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_3p;labelPerimeter=1;points=[[0.15,1,0,0,0],[0.2,0,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.833333,0,0,0,0],[0.833333,1,0,0,0]];" value="3P 25A MCB" vertex="1">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-187" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_2p;labelPerimeter=1;points=[[0.222222,0,0,0,0],[0.222222,1,0,0,0],[0.777778,0,0,0,0],[0.777778,1,0,0,0]];" value="2P 25A MCB" vertex="1">
           <mxGeometry height="90" width="60" x="1979" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-188" edge="1" parent="1" source="serp_Y_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.139;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#CA8A04;" target="yXBHUCvxf5Sa-6nLvMf1-187">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-188" edge="1" parent="1" source="serp_Y_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.222222;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#CA8A04;" target="yXBHUCvxf5Sa-6nLvMf1-187">
           <mxGeometry relative="1" x="-0.0899" as="geometry">
             <Array as="points">
               <mxPoint x="1078.5" y="520" />
@@ -1411,7 +1411,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-189" edge="1" parent="1" source="serp_B_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.462;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#3333FF;" target="yXBHUCvxf5Sa-6nLvMf1-187">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-189" edge="1" parent="1" source="serp_B_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.777778;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#3333FF;" target="yXBHUCvxf5Sa-6nLvMf1-187">
           <mxGeometry relative="1" x="-0.1167" as="geometry">
             <Array as="points">
               <mxPoint x="1378.5" y="200" />
@@ -1431,26 +1431,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-190" edge="1" parent="1" source="serp_N_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.796;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="yXBHUCvxf5Sa-6nLvMf1-187">
-          <mxGeometry relative="1" x="-0.152" as="geometry">
-            <Array as="points">
-              <mxPoint x="1399.5" y="515" />
-              <mxPoint x="1952.5" y="515" />
-              <mxPoint x="1952.5" y="270" />
-              <mxPoint x="2026.8" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wirenum_src_63" connectable="0" parent="yXBHUCvxf5Sa-6nLvMf1-190" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="63" vertex="1">
-          <mxGeometry relative="1" x="-0.93" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wirenum_tgt_63" connectable="0" parent="yXBHUCvxf5Sa-6nLvMf1-190" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="63" vertex="1">
-          <mxGeometry relative="1" x="0.92" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
+
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-191" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_1p;labelPerimeter=1;points=[[0.5,0,0,0,0],[0.5,1,0,0,0]];" value="10A MCB&lt;div&gt;Pond&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="9" x="2232.5" y="365" as="geometry" />
         </mxCell>
@@ -1508,7 +1489,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-209" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.2;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;entryX=0.666667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CA8A04;" target="yXBHUCvxf5Sa-6nLvMf1-183">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-209" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.222222;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CA8A04;" target="yXBHUCvxf5Sa-6nLvMf1-183">
           <mxGeometry relative="1" x="-0.3008" as="geometry">
             <Array as="points">
               <mxPoint x="2554.5" y="630" />
@@ -1527,10 +1508,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-202" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_3p;labelPerimeter=1;points=[[0.15,1,0,0,0],[0.2,0,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.833333,0,0,0,0],[0.833333,1,0,0,0]];" value="3P 25A MCB" vertex="1">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-202" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_2p;labelPerimeter=1;points=[[0.222222,0,0,0,0],[0.222222,1,0,0,0],[0.777778,0,0,0,0],[0.777778,1,0,0,0]];" value="2P 25A MCB" vertex="1">
           <mxGeometry height="90" width="60" x="2542.5" y="720" as="geometry" />
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-203" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.15;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#CA8A04;" target="yXBHUCvxf5Sa-6nLvMf1-202">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-203" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.222222;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.222222;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#CA8A04;" target="yXBHUCvxf5Sa-6nLvMf1-202">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1988" y="1070" />
@@ -1548,7 +1529,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-204" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#3333FF;" target="yXBHUCvxf5Sa-6nLvMf1-202">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-204" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.777778;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.777778;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;strokeColor=#3333FF;" target="yXBHUCvxf5Sa-6nLvMf1-202">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2009" y="1060" />
@@ -1566,28 +1547,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-205" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.833333;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.833333;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="yXBHUCvxf5Sa-6nLvMf1-202">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2029" y="1050" />
-              <mxPoint x="2592.5" y="1050" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wirenum_src_70" connectable="0" parent="yXBHUCvxf5Sa-6nLvMf1-205" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="70" vertex="1">
-          <mxGeometry relative="1" x="-0.93" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="wirenum_tgt_70" connectable="0" parent="yXBHUCvxf5Sa-6nLvMf1-205" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="70" vertex="1">
-          <mxGeometry relative="1" x="0.92" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
+
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-207" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.cb_2p;labelPerimeter=1;points=[[0.333333,0,0,0,0],[0.333333,1,0,0,0],[0.666667,0,0,0,0],[0.666667,1,0,0,0]];" value="16A RCBO&lt;br&gt;S.Pool" vertex="1">
           <mxGeometry height="50" width="18" x="2674.5" y="730" as="geometry" />
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-210" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.833333;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.333333;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="yXBHUCvxf5Sa-6nLvMf1-183">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-210" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.777778;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="yXBHUCvxf5Sa-6nLvMf1-183">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2592.5" y="650" />
@@ -1605,7 +1569,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-211" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.333333;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.666667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="yXBHUCvxf5Sa-6nLvMf1-207">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-211" edge="1" parent="1" source="yXBHUCvxf5Sa-6nLvMf1-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.666667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="yXBHUCvxf5Sa-6nLvMf1-207">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2744.5" y="700" />
@@ -1822,10 +1786,10 @@
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-231" parent="yXBHUCvxf5Sa-6nLvMf1-225" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=ellipse;perimeter=ellipsePerimeter;labelPerimeter=1;" value="" vertex="1">
           <mxGeometry height="10" width="10" x="100" as="geometry" />
         </mxCell>
-        <mxCell id="box1_ovuv_spd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#DC2626;strokeWidth=1.5;fontSize=11;" value="&lt;b&gt;Box 2 Spare 5 Mod:&lt;/b&gt; Fit &lt;b&gt;63A 4P OV/UV Protector (4 Mod)&lt;/b&gt; here between 63A MCB &amp;amp; Serplex #1 (Optional: Type-2 SPD)" vertex="1">
+        <mxCell id="box1_ovuv_spd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#DC2626;strokeWidth=1.5;fontSize=11;" value="&lt;b&gt;Box 2 Spare 5 Mod:&lt;/b&gt; Fit &lt;b&gt;63A 4P OV/UV Protector (4 Mod)&lt;/b&gt; here between 63A MCB &amp;amp; Serplex #1 (OPTIONAL / NOT INSTALLED: OV/UV Protector + Type-2 SPD)" vertex="1">
           <mxGeometry height="55" width="550" x="968.5" y="-60" as="geometry" />
         </mxCell>
-      <mxCell id="lbl_box4_container" value="&lt;b&gt;16-Way Box 4: Container Sub Distribution Board&lt;/b&gt;&lt;br&gt;(40A 4P RCCB + 9x 20A 1P MCB + 6A 1P MCB = 13 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="268.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box5_ne" value="&lt;b&gt;12-Way Box 5: North East Sub Distribution Board&lt;/b&gt;&lt;br&gt;(25A 4P MCB + 4x 6A/16A 1P MCB = 8 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1425.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box6_amphi" value="&lt;b&gt;6-Way Box 6: Amphi Sub Distribution Board&lt;/b&gt;&lt;br&gt;(20A 1P MCB + 25A 3P MCB + 16A 2P RCBO = 6 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2482.0" y="500.0" width="360.0" height="40.0" as="geometry" /></mxCell></root>
+      <mxCell id="lbl_box4_container" value="&lt;b&gt;16-Way Box 4: Container Sub Distribution Board&lt;/b&gt;&lt;br&gt;(40A 4P RCCB + 9x 20A 1P MCB + 6A 1P MCB = 13 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="268.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box5_ne" value="&lt;b&gt;12-Way Box 5: North East Sub Distribution Board&lt;/b&gt;&lt;br&gt;(2x 25A 3P MCB = 6 Mod + 4x 1P = 4 Mod = 10 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="1425.0" y="1130.0" width="740.0" height="40.0" as="geometry" /></mxCell><mxCell id="lbl_box6_amphi" value="&lt;b&gt;6-Way Box 6: Amphi Sub Distribution Board&lt;/b&gt;&lt;br&gt;(20A 1P MCB + 25A 2P MCB + 16A 2P RCBO = 5 Mod used @17.5mm)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="2482.0" y="500.0" width="360.0" height="40.0" as="geometry" /></mxCell></root>
     </mxGraphModel>
   </diagram>
 </mxfile>
