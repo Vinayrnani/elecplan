@@ -73,11 +73,12 @@
 - Box 5 updated: 25A 4P MCB + 4x 6A/16A 1P MCB = 8 Mod used
 - Commit 7207c24 pushed to GitHub.
 
-## Recent changes (neutral-direct pole reduction)
-- Reduced pole counts on Page-2 per "neutral direct, reduce poles" philosophy: 4P→3P (×4: 63A/40A/25A/25A MCB), 3P→2P (×2: 25A MCB), 2P→1P (×2: 32A/20A Amphi). Neutral now bypasses all MCBs to Neutral Link.
-- Removed neutral pass-through wires 63 (serp_N_5→187 N) and 70 (187 N→202 N). Neutral now terminates at Neutral Link groups only.
-- Updated box mod-count labels: Box 1 = 7 Mod, Box 3 = 13 Mod, Box 5 = 10 Mod, Box 6 = 5 Mod.
-- Marked OV/UV Protector + Type-2 SPD as OPTIONAL / NOT INSTALLED.
+## Recent changes (neutral-direct pole reduction — COMPLETE)
+- Neutral fully bypasses all MCBs to Neutral Link (Page-2). Removed ALL neutral-to-MCB wires: changeover N→MCB 35 (wire 57), MCB 35→serp_N_1 (wire 72), serp_N_2→MCB 11 (wire 77), MCB 11→RCCB N (wire 81), serp_N_3→MCB 82 (wire 87), MCB 82→MCB 90 neutral pass-through (wire 94), serp_N_4→MCB 141 (wire 186).
+- Fixed changeover Y/B entry re-anchoring after 4P→3P shape change (wires 55, 56).
+- Added changeover N → Neutral Link -226 (wire 83) and Neutral Link → serp_N_1 through serp_N_11 (wires 84-94) across both Neutral Link groups (-225 extended to 12 terminals, -137 existing).
+- Pole counts already applied: 4P→3P (×4: 63A/40A/25A/25A MCB), 3P→2P (×2: 25A MCB), 2P→1P (×2: 32A/20A Amphi).
+- Previously removed: neutral pass-through wires 63 & 70. Box mod labels: Box 1=7, Box 3=13, Box 5=10, Box 6=5 Mod. OV/UV + SPD = OPTIONAL / NOT INSTALLED.
 - Conflicts untouched: RCCB (4P, RCD needs neutral through sensor), changeover (4P, neutral must switch), RCBO pool pump (2P).
-- XML validated: well-formed, 0 invalid/dangling edge references.
-- Commit pending.
+- XML validated: well-formed, all 11 serp_N terminals have exactly 1 incoming edge from Neutral Link, 0 edges target any MCB N position.
+- Committing now.
