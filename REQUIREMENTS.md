@@ -81,4 +81,4 @@
 - Previously removed: neutral pass-through wires 63 & 70. Box mod labels: Box 1=7, Box 3=13, Box 5=10, Box 6=5 Mod. OV/UV + SPD = OPTIONAL / NOT INSTALLED.
 - Conflicts untouched: RCCB (4P, RCD needs neutral through sensor), changeover (4P, neutral must switch), RCBO pool pump (2P).
 - XML validated: well-formed, all 11 serp_N terminals have exactly 1 incoming edge from Neutral Link, 0 edges target any MCB N position.
-- Committing now.
+- Committed & pushed commit 0e477e4 to main.
