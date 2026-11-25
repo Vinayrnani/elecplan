@@ -17,6 +17,12 @@
 - SKETCHUP_MODEL_KNOWLEDGE.md — project knowledge + summary of changes
 - REQUIREMENTS.md — this file (update for every change/new requirement)
 
+## Recent changes (Cu/Al wire material rule)
+- User rule: wires inside DB/boxes = copper; all underground/field cables = aluminium.
+- Relabeled 15 underground/field wires from Cu to Al with Al-correct gauges: main incoming 3x 16mm²Al, container feeder 3x 10mm²Al, North-shed feeder 3x 6mm²Al, Amphi feeder 2x 6mm²Al, street-light/pump field wires 4x 4mm²Al.
+- The 3 main-incoming wires (Ha-54/55/56) feeding the 63A MCB relabeled 16mm²Al per user ('main incoming is 16mm² aluminium'); R/Y/B outgoing from 63A MCB to Serplex stay 16mm²Cu (internal panel link).
+- 37 internal panel links remain copper (63A=16, 40A=10, 32A=6, 25/20A=4, 16A=2.5, 10/6A=1.5 mm² Cu).
+- Page-2: 313 vertices / 84 edges, XML valid (15 Al + 37 Cu labeled wires).
 ## Recent changes
 - Added copper gauge labels to all feeder wires in Page-2 (52 wires labeled). Gauge sized to the breaker the wire feeds: 63A→16mm²Cu, 40A→10mm²Cu, 32A→6mm²Cu, 25A/20A→4mm²Cu, 16A→2.5mm²Cu, 10A/6A→1.5mm²Cu. Incoming R/Y/B phase wires from 63A MCB→16mm²Cu. Existing phase/wire-number labels preserved (appended). 32 internal busbar/fuse/neutral-link wires without a breaker rating left as-is.
 - Fixed Page-2 wire routing inside Serplex 11x2 modules: the 5 previously horizontal Serplex edges now use vertical exit/entry points (exitY 0 or 1 instead of 0.5; entryY 0 instead of 0.004). No wire now crosses any module interior; no overlapping segments. Commit d9bd626 + follow-up fix.

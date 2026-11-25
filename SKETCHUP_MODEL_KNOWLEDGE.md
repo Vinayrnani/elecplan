@@ -193,6 +193,12 @@ System: 3-phase 415V 50Hz, Al PVC (IS 694) / XLPE (IS 7098). "Supported" = conse
 ### Overall
 Cable gauges and MCB ratings are adequate once the container feeder breaker is set to **32A 3P**. Remaining items are documentation/design decisions (OV/UV+SPD installed or not; sub-DB breaker count) — not sizing failures.
 
+### Wire material rule (user-confirmed): inside DB/boxes = copper, underground = aluminium
+- Inside DB/boxes (short panel links MCB↔Serplex↔busbar↔sub-DB internal): COPPER. Gauges: 63A=16, 40A=10, 32A=6, 25/20A=4, 16A=2.5, 10/6A=1.5 mm² Cu (37 wires labeled Cu).
+- Underground/field cables (DB-to-DB feeders, light/pump field runs, main incoming): ALUMINIUM. Gauges per BOM/ampacity: main incoming 16mm² Al, container feeder 10mm² Al, North-shed feeder 6mm² Al, Amphi feeder 6mm² Al, street-light/pump field 4mm² Al (15 wires labeled Al).
+- Main incoming (Ha-54/55/56) feeding the 63A MCB relabeled 16mm²Al (user: 'main incoming is 16mm² aluminium'); the R/Y/B links from 63A MCB to Serplex remain 16mm²Cu (internal).
+- Field cables stay Aluminium per BOM; internal panel wiring is copper.
+
 ### Copper internal-wiring gauge (added as labels on Page-2 wires)
 Copper conductors for internal panel links (MCB ↔ Serplex ↔ sub-DB), PVC at 40 °C, sized so the breaker protects the conductor:
 
