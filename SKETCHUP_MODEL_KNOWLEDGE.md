@@ -193,6 +193,21 @@ System: 3-phase 415V 50Hz, Al PVC (IS 694) / XLPE (IS 7098). "Supported" = conse
 ### Overall
 Cable gauges and MCB ratings are adequate once the container feeder breaker is set to **32A 3P**. Remaining items are documentation/design decisions (OV/UV+SPD installed or not; sub-DB breaker count) — not sizing failures.
 
+### Copper internal-wiring gauge (added as labels on Page-2 wires)
+Copper conductors for internal panel links (MCB ↔ Serplex ↔ sub-DB), PVC at 40 °C, sized so the breaker protects the conductor:
+
+| Breaker fed | Copper wire | Breaker fed | Copper wire |
+|---|---|---|---|
+| 63A | 16 mm² Cu | 20A | 4 mm² Cu |
+| 40A | 10 mm² Cu | 16A | 2.5 mm² Cu |
+| 32A | 6 mm² Cu | 10A | 1.5 mm² Cu |
+| 25A | 4 mm² Cu | 6A | 1.5 mm² Cu |
+
+- 52 feeder wires labeled with gauge (e.g. "6mm²Cu", "R · 16mm²Cu"); existing phase letters R/Y/B and wire numbers preserved.
+- Incoming R/Y/B phase links from the 63A MCB → 16 mm² Cu.
+- 32 short internal busbar/fuse/neutral-link wires carry no breaker rating → left unlabeled (not current-carrying feeder runs).
+- Note: this is internal COPPER panel wiring; the field cables remain Aluminium as per the BOM.
+
 ### Pending
 - Custom BOM Excel sheet (.xlsx) — deferred per user ("no excel for now").
 - Decide OV/UV+SPD installation and container Sub-DB breaker count (items 2 & 3).
