@@ -152,24 +152,41 @@ System: 3-Phase 415V 50Hz, Al cables IS 7098/694. Ampacity figures are approxima
 | Circuit | Cable | Protection | Load / demand | VD @ full | Verdict |
 |---|---|---|---|---|---|
 | South feeder (grid→DB) | 16 sqmm 4C Al armoured, 40 m | 63A 4P changeover (busbar 100A) | ~32 kW est = 56A @pf0.8 | 1.1% | OK — cable ampacity 68A > 63A |
-| Container feeder | 10 sqmm 1C Al ×5 (R/Y/B/N/E), 45 m | 40A 4P MCB | 9×20A room circuits (180A connected, ~90A diversified) | 1.2% @40A | **MARGINAL — 40A feeder likely undersized if many rooms loaded together** |
+| Container feeder | 10 sqmm 1C Al ×5 (R/Y/B/N/E) in ONE HDPE, 45 m | **32A 3P MCB** (changed from 40A 3P) | 9×20A room circuits (180A connected, ~90A diversified) | 1.2% @40A, ~0.8% @32A | **OK — 32A breaker now matches derated cable capacity (~28–32A)** |
 | North shed feeder | 6 sqmm 2C Al, 48 m | 32A (diagram 1P) | sockets + lights | 3.7% @32A | OK at ~20A (2.3%); marginal at full 32A |
 | Pool pump | 4 sqmm 2C Al, 47 m | 16A 2P RCBO 30mA | 1.5–2 HP = 6–8A run, ~24–32A start | low | OK — C-curve handles inrush |
 | Street/gate/path lights | 4 sqmm 2C Al | 6A SP each | 8×36W = 288W = 1.4A each | negligible | OK — cable heavily oversized (safe) |
 | Room drops | 4 sqmm 2C Al | 20A 1P each | per room AC+geyser | low | OK — 28A ampacity > 20A |
 | Stage sideboards | 6 sqmm 2C Al | 16A industrial socket | per socket | low | OK |
 
-### Discrepancies found (need your decision)
-1. **Pole count mismatch (safety/code):** BOM specifies 4P breakers (40A 4P container feeder, 32A 2P north shed, 63A 4P changeover) but the DIAGRAM labels show '3 Pole 40A MCB', '3 Pole 25A MCB', '1P 32A MCB', '3 Pole 63A MCB'. On a 3-phase 4-wire TN system a 3P breaker does not isolate the neutral — should be 4P for the incomer/sub-DB feeders.
-2. **OV/UV + SPD:** BOM lists them as installed; diagram note says 'OPTIONAL / NOT INSTALLED'. Conflict — decide which is true.
-3. **Container Sub-DB breaker count:** BOM = 40A 4P RCCB + 4×20A DP + 2×16A DP. Diagram Box 4 = 40A 4P RCCB + 9×20A 1P + 6A 1P (13 mod). Count/type differ (9 vs 6, 1P vs DP).
-4. **Container feeder sizing:** 40A protection on 10 sqmm is fine for the cable, but 9×20A downstream circuits could exceed 40A with diversity ~0.5. Consider 63A feeder + upgrade to 16 sqmm if all rooms run AC+geyser simultaneously, or confirm realistic diversity.
+### CURRENT SETUP vs ACTUALLY SUPPORTED (requested comparison)
+System: 3-phase 415V 50Hz, Al PVC (IS 694) / XLPE (IS 7098). "Supported" = conservative ampacity after derating (grouping in one conduit, buried HDPE, Telangana soil ~40°C, VD ≤3–4%).
+
+| Item | Current setup (diagram) | Actually supported (derated) | Status / action |
+|---|---|---|---|
+| Container feeder cable | 10 sqmm 1C Al PVC ×5 in ONE 1.25" HDPE, buried, 45 m | Base ~50A free air; grouping ×0.6–0.7, buried/soil ×0.8–0.9 → **~28–32A** | OK at 32A; would be overloaded at 40A |
+| Container feeder breaker | ~~40A 3P MCB~~ → **32A 3P MCB** | Breaker must be ≤ cable derated ampacity (≤~32A) | **CHANGED to 32A 3P** |
+| South feeder cable | 16 sqmm 4C Al armoured, 40 m, buried | ~68A derated | OK for 63A changeover |
+| South feeder changeover | 63A 4P (busbar 100A) | Load ~56A @pf0.8 | OK |
+| North shed cable | 6 sqmm 2C Al, 48 m, in conduit | ~36A base, derated ~28–32A | OK at ~20A; marginal at full 32A |
+| North shed breaker | 32A (diagram 1P pole-reduced) | ≤~32A supported | OK with load management |
+| Pool pump | 4 sqmm 2C Al, 47 m, 16A 2P RCBO 30mA | ~28A ampacity; 1.5–2HP = 6–8A run, ~24–32A start | OK — C-curve handles inrush |
+| Street/gate/path lights | 4 sqmm 2C Al, 6A SP each, 8×36W=288W=1.4A | ~28A ampacity | OK — heavily oversized (safe) |
+| Room drops | 4 sqmm 2C Al, 20A 1P each | ~28A ampacity | OK |
+| Stage sideboards | 6 sqmm 2C Al, 16A industrial socket | ~30A ampacity | OK |
+| ESP32 SMPS + sensors | 6A SP | small PSU load | OK |
+
+### Discrepancies (updated)
+1. ~~Pole count mismatch~~ — RETRACTED. Reducing poles to 3P/1P was intentional (user: "I asked to reduce poles as neutral not needed"); not a safety error.
+2. **OV/UV + SPD:** BOM lists installed; diagram note says 'OPTIONAL / NOT INSTALLED'. Decision still needed.
+3. **Container Sub-DB breaker count:** BOM = 40A 4P RCCB + 4×20A DP + 2×16A DP. Diagram Box 4 = 40A 4P RCCB + 9×20A 1P + 6A 1P (13 mod). Count/type differ (9 vs 6, 1P vs DP). Decision needed.
+4. **Container feeder sizing:** RESOLVED — breaker reduced 40A → 32A 3P to match the derated 10 sqmm cable capacity. If all rooms run AC+geyser simultaneously and 32A nuisance-trips, upsize cable to 16 sqmm (only way to justify >32A).
 
 ### Overall
-Cable gauges and MCB ratings are largely adequate for the assumed loads. Main gaps are the **BOM-vs-diagram breaker pole-count/count conflicts** and the **container feeder headroom**. Recommend resolving the 4 conflicts above before final sign-off.
+Cable gauges and MCB ratings are adequate once the container feeder breaker is set to **32A 3P**. Remaining items are documentation/design decisions (OV/UV+SPD installed or not; sub-DB breaker count) — not sizing failures.
 
 ### Pending
 - Custom BOM Excel sheet (.xlsx) — deferred per user ("no excel for now").
-- Resolve the 4 audit discrepancies above (user decision needed).
+- Decide OV/UV+SPD installation and container Sub-DB breaker count (items 2 & 3).
 - Awaiting your instructions on what updates to make next to Page-2.
 

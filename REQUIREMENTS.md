@@ -22,7 +22,14 @@
 - Added wire numbers 1-82 to all 82 edges, with labels visible at both source (x=0.05) and target (x=0.95) ends. Commit 6eb0477.
 - Installed `electrical` and `electrical-engineering` skills for professional electrical planning.
 
+## Recent changes (container feeder breaker 40A → 32A 3P)
+- Container feeder cable = 10 sqmm 1C Al PVC ×5 in ONE buried HDPE conduit, 45 m → derated ampacity ~28–32A (grouping + buried + warm soil).
+- A 40A breaker would not protect this cable → changed container feeder MCB from "3 Pole 40 A MCB C Curve" to "3 Pole 32 A MCB C Curve" in the draw.io diagram; Box 3 label updated "40A 3P" → "32A 3P".
+- Added "CURRENT SETUP vs ACTUALLY SUPPORTED" comparison table to SKETCHUP_MODEL_KNOWLEDGE.md audit section.
+- Pole reduction to 3P/1P was intentional (neutral not needed) — NOT a defect.
+
 ## Open tasks
+0. [x] Container feeder breaker 40A → 32A 3P (matches derated cable) + current-vs-supported table
 1. [x] Accept remote state (Page-1 removed, Page-2 intact with real electrical symbols)
 2. [x] Fix Page-2 negative coordinates (uniform shift min top-level x,y → 60,60)
 3. [x] Fix dangling edge bNfMxfX9K-qKM2XH7_Ha-55 (added exitX=0.5;exitY=0)

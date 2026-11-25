@@ -26,7 +26,7 @@
         <mxCell id="box16_feeders" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=auto;opacity=30;strokeWidth=2;" value="" vertex="1">
           <mxGeometry height="580" width="740" x="1592.5" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="lbl_box16_feeders" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" value="&lt;b&gt;16-Way Box 3: Outgoing Feeders&lt;/b&gt;&lt;br&gt;(40A 3P + 25A 3P + 32A 1P + 25A 3P + Lights = 13 Mod @17.5mm)" vertex="1">
+        <mxCell id="lbl_box16_feeders" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" value="&lt;b&gt;16-Way Box 3: Outgoing Feeders&lt;/b&gt;&lt;br&gt;(32A 3P + 25A 3P + 32A 1P + 25A 3P + Lights = 13 Mod @17.5mm)" vertex="1">
           <mxGeometry height="40" width="700" x="1612.5" y="70" as="geometry" />
         </mxCell>
         <mxCell id="serplex_11x2_unit1" connectable="0" parent="1" style="group;rounded=1;fillColor=#EFF6FF;strokeColor=#2563EB;strokeWidth=2;verticalAlign=top;fontSize=11;fontColor=#1E3A8A;spacingTop=4;" value="&lt;b&gt;Serplex 11x2-Way #1 (R &amp; Y)&lt;/b&gt;" vertex="1">
@@ -635,7 +635,7 @@
         <mxCell id="yRYTGthP2hCRk4MGjQCh-75" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_4p;labelPerimeter=1;points=[[0.147,0,0,0,0],[0.147,1,0,0,0],[0.375,1,0,0,0],[0.4,0,0,0,0],[0.6345,0,0,0,0],[0.6345,1,0,0,0],[0.875,0,0,0,0],[0.875,1,0,0,0]];" value="4 Pole 40 A&lt;br&gt;30mA RCCB" vertex="1">
           <mxGeometry height="90" width="80" x="292.5" y="1240" as="geometry" />
         </mxCell>
-        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-11" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_3p;labelPerimeter=1;points=[[0.15,1,0,0,0],[0.2,0,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.833333,0,0,0,0],[0.833333,1,0,0,0]];" value="3 Pole 40 A MCB C Curve" vertex="1">
+        <mxCell id="yXBHUCvxf5Sa-6nLvMf1-11" parent="1" style="verticalLabelPosition=bottom;dashed=0;shadow=0;html=1;align=center;verticalAlign=top;shape=mxgraph.cabinets.mccb_25_63a_3p;labelPerimeter=1;points=[[0.15,1,0,0,0],[0.2,0,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.833333,0,0,0,0],[0.833333,1,0,0,0]];" value="3 Pole 32 A MCB C Curve" vertex="1">
           <mxGeometry height="90" width="80" x="1610.5" y="360" as="geometry" />
         </mxCell>
         <mxCell id="yXBHUCvxf5Sa-6nLvMf1-74" edge="1" parent="1" source="serp_R_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#DC2626;exitX=0.5;exitY=0;entryX=0.15;entryY=0;" target="yXBHUCvxf5Sa-6nLvMf1-11">
