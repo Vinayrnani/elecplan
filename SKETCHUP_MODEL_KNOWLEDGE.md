@@ -138,6 +138,12 @@ Note: several labels are partially obscured by viewer overlays; lengths are mode
 - Committed and pushed to GitHub (main branch).
 - Opens in draw.io web via: https://app.diagrams.net/?github=Vinayrnani/elecplan&file=drawings/farmhouse_electrical_sld_16way_v4.drawio
 
+### Recent changes (single-pole breaker optimisation)
+- Converted all multipole MCBs to single pole. Kept ONLY: 63A 4P changeover, 3 Pole 32A container feeder, and 16A RCBO (pool — user: "But RCBo is there").
+- 63A 3P incoming → 1 Pole 63A; 25A 3P ×2 → 1 Pole 25A ×2; 25A 2P ×2 (Amphi) → 1P 25A ×2; 40A 4P RCCB → 1 Pole 40A MCB (RCCB optional / not used — user: "Not using any rccb now all they are optional. But RCBo is there").
+- Box mod counts: Box1 63A 1P = 1 Mod; Box3 10 Mod; Box4 12 Mod; Box5 6 Mod; Box6 4 Mod.
+- 63A 4P OV/UV + Type-2 SPD stay as OPTIONAL / NOT INSTALLED notes.
+
 ### Recent changes (draw.io Page-2 wire routing fix)
 - Fixed all Serplex 11x2 module wire connections to use vertical exit/entry points (straight up or down).
 - 5 edges updated: 189 (entryY 0.004→0), 190 (exitX 1→0.5, exitY 0.5→1, entryY 0.004→0), 195/198/199 (exitX 0→0.5, exitY 0.5→0, with 198 re-routed downward to avoid crossing terminal R5).

@@ -22,6 +22,12 @@
 - Added wire numbers 1-82 to all 82 edges, with labels visible at both source (x=0.05) and target (x=0.95) ends. Commit 6eb0477.
 - Installed `electrical` and `electrical-engineering` skills for professional electrical planning.
 
+## Recent changes (single-pole breaker optimisation)
+- Converted all multipole MCBs to single pole for cost saving. Kept ONLY: 63A 4P changeover, 3 Pole 32A container feeder main DB, and 16A RCBO (pool — user confirmed RCBO stays).
+- 63A 3P incoming MCB → 1 Pole 63A; 25A 3P ×2 → 1 Pole 25A ×2; 25A 2P ×2 (Amphi) → 1P 25A ×2; 40A 4P RCCB → 1 Pole 40A MCB (RCCB optional / not used — user: "Not using any rccb now all they are optional. But RCBo is there").
+- Box mod-count labels updated: Box1 63A 1P 1 Mod; Box3 10 Mod; Box4 12 Mod; Box5 6 Mod; Box6 4 Mod.
+- 63A 4P OV/UV remains an OPTIONAL / NOT INSTALLED note only.
+
 ## Recent changes (container feeder breaker 40A → 32A 3P)
 - Container feeder cable = 10 sqmm 1C Al PVC ×5 in ONE buried HDPE conduit, 45 m → derated ampacity ~28–32A (grouping + buried + warm soil).
 - A 40A breaker would not protect this cable → changed container feeder MCB from "3 Pole 40 A MCB C Curve" to "3 Pole 32 A MCB C Curve" in the draw.io diagram; Box 3 label updated "40A 3P" → "32A 3P".
