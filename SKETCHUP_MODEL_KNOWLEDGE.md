@@ -162,13 +162,15 @@ System: 3-Phase 415V 50Hz, Al cables IS 7098/694. Ampacity figures are approxima
 ### CURRENT SETUP vs ACTUALLY SUPPORTED (requested comparison)
 System: 3-phase 415V 50Hz, Al PVC (IS 694) / XLPE (IS 7098). "Supported" = conservative ampacity after derating (grouping in one conduit, buried HDPE, Telangana soil ~40°C, VD ≤3–4%).
 
+**INSTALLATION RULE (user-confirmed):** ALL DB-to-DB connections and the North Shed feeder are underground inside HDPE pipe only. The ONLY directly-buried armoured cable is the South feeder (16 sqmm 4C Al armoured, 40 m from pole meter to Central DB). Do not describe any DB-to-DB run or North Shed as directly buried armoured.
+
 | Item | Current setup (diagram) | Actually supported (derated) | Status / action |
 |---|---|---|---|
-| Container feeder cable | 10 sqmm 1C Al PVC ×5 in ONE 1.25" HDPE, buried, 45 m | Base ~50A free air; grouping ×0.6–0.7, buried/soil ×0.8–0.9 → **~28–32A** | OK at 32A; would be overloaded at 40A |
+| Container feeder cable | 10 sqmm 1C Al PVC ×5 in ONE 1.25" HDPE pipe, underground, 45 m (DB-to-DB) | Base ~50A free air; grouping ×0.6–0.7, buried/soil ×0.8–0.9 → **~28–32A** | OK at 32A; would be overloaded at 40A |
 | Container feeder breaker | ~~40A 3P MCB~~ → **32A 3P MCB** | Breaker must be ≤ cable derated ampacity (≤~32A) | **CHANGED to 32A 3P** |
-| South feeder cable | 16 sqmm 4C Al armoured, 40 m, buried | ~68A derated | OK for 63A changeover |
+| South feeder cable | 16 sqmm 4C Al **armoured, directly buried**, 40 m (pole → Central DB) — the ONLY armoured direct-buried cable | ~68A derated | OK for 63A changeover |
 | South feeder changeover | 63A 4P (busbar 100A) | Load ~56A @pf0.8 | OK |
-| North shed cable | 6 sqmm 2C Al, 48 m, in conduit | ~36A base, derated ~28–32A | OK at ~20A; marginal at full 32A |
+| North shed cable | 6 sqmm 2C Al, 48 m, **underground in 3/4" HDPE pipe** (DB-to-DB) | ~36A base, derated ~28–32A | OK at ~20A; marginal at full 32A |
 | North shed breaker | 32A (diagram 1P pole-reduced) | ≤~32A supported | OK with load management |
 | Pool pump | 4 sqmm 2C Al, 47 m, 16A 2P RCBO 30mA | ~28A ampacity; 1.5–2HP = 6–8A run, ~24–32A start | OK — C-curve handles inrush |
 | Street/gate/path lights | 4 sqmm 2C Al, 6A SP each, 8×36W=288W=1.4A | ~28A ampacity | OK — heavily oversized (safe) |
