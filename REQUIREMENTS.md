@@ -24,6 +24,7 @@
 - 37 internal panel links remain copper (63A=16, 40A=10, 32A=6, 25/20A=4, 16A=2.5, 10/6A=1.5 mm² Cu).
 - Page-2: 313 vertices / 84 edges, XML valid (15 Al + 37 Cu labeled wires).
 ## Recent changes
+- Replaced 63A 1P MCB (incoming main) with 63A 4P MCB (Main). Changeover switch (amiciSmart) marked OPTIONAL/NOT INSTALLED (future). Combined into one 16-way box: 63A 4P MCB Main [4 Mod] + 2x Serplex 11x2 [12 Mod] = 16 Mod. 6 wires reconnected (3 incoming 16mm² Al + 3 outgoing 16mm² Cu R/Y/B). Removed redundant 63A 1P MCB.
 - Added copper gauge labels to all feeder wires in Page-2 (52 wires labeled). Gauge sized to the breaker the wire feeds: 63A→16mm²Cu, 40A→10mm²Cu, 32A→6mm²Cu, 25A/20A→4mm²Cu, 16A→2.5mm²Cu, 10A/6A→1.5mm²Cu. Incoming R/Y/B phase wires from 63A MCB→16mm²Cu. Existing phase/wire-number labels preserved (appended). 32 internal busbar/fuse/neutral-link wires without a breaker rating left as-is.
 - Fixed Page-2 wire routing inside Serplex 11x2 modules: the 5 previously horizontal Serplex edges now use vertical exit/entry points (exitY 0 or 1 instead of 0.5; entryY 0 instead of 0.004). No wire now crosses any module interior; no overlapping segments. Commit d9bd626 + follow-up fix.
 - Added wire numbers 1-82 to all 82 edges, with labels visible at both source (x=0.05) and target (x=0.95) ends. Commit 6eb0477.

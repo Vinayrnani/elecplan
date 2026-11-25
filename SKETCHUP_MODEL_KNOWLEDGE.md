@@ -199,6 +199,13 @@ Cable gauges and MCB ratings are adequate once the container feeder breaker is s
 - Main incoming (Ha-54/55/56) feeding the 63A MCB relabeled 16mm²Al (user: 'main incoming is 16mm² aluminium'); the R/Y/B links from 63A MCB to Serplex remain 16mm²Cu (internal).
 - Field cables stay Aluminium per BOM; internal panel wiring is copper.
 
+### Incomer / Box 1 restructure (63A 4P Main MCB + Serplex combined)
+- 63A 4P MCB is the MAIN incoming breaker (not a changeover). 63A 1P MCB removed (redundant).
+- Changeover switch (amiciSmart 63A 4P) marked OPTIONAL / NOT INSTALLED (future plan).
+- Combined into one 16-way box: [63A 4P MCB Main (4 Mod)] + [Serplex unit 1] + [Serplex unit 2] = 16 Mod.
+- 6 wires reconnected: 3 incoming (16mm² Al from pole meter) + 3 outgoing (16mm² Cu R/Y/B to Serplex).
+- OV/UV protector note updated to reference 63A 4P MCB.
+
 ### Copper internal-wiring gauge (added as labels on Page-2 wires)
 Copper conductors for internal panel links (MCB ↔ Serplex ↔ sub-DB), PVC at 40 °C, sized so the breaker protects the conductor:
 
