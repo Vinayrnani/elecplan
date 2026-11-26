@@ -31,6 +31,14 @@ Validated with electrical skills and IEC 60898 trip curves for the ACTUAL loads 
 - Future South/West container extension: run a separate feeder from the Main DB; do NOT tee off Rooms 1–4 (feeder already ~30A worst phase).
 - RCCB still optional/not used; 16A pool RCBO stays; changeover/OV/UV/SPD remain OPTIONAL / NOT INSTALLED.
 
+## Recent changes (phase distribution + container circuits)
+- User request: distribute phases; shed and all other loads balanced, including South and West containers. West container has one inverter AC; both containers otherwise lights + fans only.
+- Shed stays on **R** (lightest main-board phase: pump 16A C + SE street light 6A + 3-phase feeders). Y carries Amphi + Main/Gate + East street lights; B carries pond/pool pumps + North street light.
+- Added to Box 3: South container lights/fans **6A 1P B on Y**; West container inverter AC **20A 1P B on B** plus West lights/fans **6A 1P B on B**. Each has a dedicated feeder from the Main DB (NOT from the loaded Box 4 feeder).
+- Added to Box 4: dedicated shared-geyser circuits **16A 1P B on Y (Rooms 1&2)** and **16A 1P B on B (Rooms 3&4)**. Geysers must not be fed through the 20A room-AC MCBs.
+- Single-pole breaker values now carry their phase tag (R/Y/B); wire colours match the assigned phase.
+- Wire routing declutter: removed redundant manual waypoints on 7 cross-box edges; moved new container breakers into separate vertical lanes so labels/wires do not pile up.
+
 ## Recent changes (box arrangement + 4P main)
 - User can fit the 4P main MCB + 2 Serplex units in one 16-way box → Box 2 is now the single Main Distribution Board: 63A 4P B-curve main [4 Mod] + 2x Serplex 11x2 [12 Mod] = 16 Mod @17.5mm.
 - Main restored from 3P to 63A 4P with phase + neutral through the breaker: incoming N from generator, outgoing N to Serplex N bar and Neutral Link; Box 1 no longer contains the main.
