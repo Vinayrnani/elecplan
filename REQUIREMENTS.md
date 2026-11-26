@@ -17,6 +17,20 @@
 - SKETCHUP_MODEL_KNOWLEDGE.md — project knowledge + summary of changes
 - REQUIREMENTS.md — this file (update for every change/new requirement)
 
+## Current approved MCB schedule (supersedes older pole/curve notes above)
+Validated with electrical skills and IEC 60898 trip curves for the ACTUAL loads — NOT the user's purchase list:
+- All inverter ACs (3-star 1.5T, max ~10.6A each) → B curve is sufficient everywhere except fixed-speed pumps.
+- Main: 3 Pole 63 A MCB B Curve (neutral bypasses MCBs — 4P symbol corrected to 3P).
+- Container feeder: 3 Pole 32 A MCB B Curve; 10 sqmm Al derated ~28–32A. Worst phase = 2 inverter ACs (~21A max) + ONE shared 2 kW geyser (8.7A) ≈ 30A.
+- Box 4 incomer: 3 × 1P 32 A MCB B Curve (one per phase) — the old 1-pole 40A symbol was wrong and was split into three 1P breakers. Box 4 has only 4 rooms + 2 stage circuits active; Container South/West circuits removed.
+- Outdoor feeder/distribution: 3 Pole 25 A MCB B Curve ×2 (labels corrected from 1P to match real 3-phase wiring/symbols).
+- North-East/Amphi feeders: 2 Pole 25 A MCB B Curve ×2 (labels corrected from 1P to match real 2-pole wiring/symbols).
+- Shed feeder: 1P 32 A MCB B Curve. Rooms 1–4 + Stage L/R: 20A 1P MCB B Curve. Street lights + inverter line: 6A 1P MCB B Curve.
+- Fixed-speed pumps need C curve: pump (1.5 HP submersible) 16A 1P C; pond pump 10A 1P C; swimming pool pump 16A 1P+N 30 mA RCBO C.
+- Shared geysers: one 2 kW per two rooms; each needs its own dedicated 16A 1P B-curve circuit (AC + geyser on one 20A MCB would be ~19A — too tight).
+- Future South/West container extension: run a separate feeder from the Main DB; do NOT tee off Rooms 1–4 (feeder already ~30A worst phase).
+- RCCB still optional/not used; 16A pool RCBO stays; changeover/OV/UV/SPD remain OPTIONAL / NOT INSTALLED.
+
 ## Recent changes (Cu/Al wire material rule)
 - User rule: wires inside DB/boxes = copper; all underground/field cables = aluminium.
 - Relabeled 15 underground/field wires from Cu to Al with Al-correct gauges: main incoming 3x 16mm²Al, container feeder 3x 10mm²Al, North-shed feeder 3x 6mm²Al, Amphi feeder 2x 6mm²Al, street-light/pump field wires 4x 4mm²Al.
