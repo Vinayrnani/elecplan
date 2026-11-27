@@ -54,7 +54,7 @@ Validated with electrical skills and IEC 60898 trip curves for the ACTUAL loads 
 ## Recent changes (box arrangement + 4P main)
 - User can fit the 4P main MCB + 2 Serplex units in one 16-way box → Box 2 is now the single Main Distribution Board: 63A 4P B-curve main [4 Mod] + 2x Serplex 11x2 [12 Mod] = 16 Mod @17.5mm.
 - Main restored from 3P to 63A 4P with phase + neutral through the breaker: incoming N from generator, outgoing N to Serplex N bar and Neutral Link; Box 1 no longer contains the main.
-- Box 1 is now ONLY the optional changeover + OV/UV + Type-2 SPD enclosure, dashed and marked OPTIONAL / NOT INSTALLED, placed at top-left.
+- Box 1 is now ONLY the optional changeover + OV/UV + Type-2 SPD enclosure, dashed and marked OPTIONAL / NOT INSTALLED, placed at top-left. The **4x 2-way changeover contacts (R/Y/B/N) are drawn inside Box 1** and labelled, sitting in the incoming supply area between grid and generator; Box 1 optional parts are NOT FITTED by default.
 - Box 3 (Outgoing Feeders) moved directly below Box 2 in the same column; Box 4/5/6 unchanged. Wire routing recomputed for the moved feeder box.
 - Label overlap cleanup: small breakers labelled beside the device, MCCBs below with white label background; redundant box-name text cells removed; schedules A/B/C provide full breaker details. No breaker-to-breaker label overlap in rendered PNG.
 - Load update: Shed now includes an inverter AC on its 32A 1P B R-phase feeder. North-East sub-DB submersible pump is fixed-speed and correctly stays on 16A 1P C (R phase). Estimated running phase balance at main: R ~42A, Y ~37A, B ~48A — all within the 63A 4P main.
