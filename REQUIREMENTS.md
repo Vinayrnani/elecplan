@@ -31,6 +31,11 @@ Validated with electrical skills and IEC 60898 trip curves for the ACTUAL loads 
 - Future South/West container extension: run a separate feeder from the Main DB; do NOT tee off Rooms 1–4 (feeder already ~30A worst phase).
 - RCCB still optional/not used; 16A pool RCBO stays; changeover/OV/UV/SPD remain OPTIONAL / NOT INSTALLED.
 
+## Recent changes (10A substituted for 6A)
+- 6A MCBs were unavailable at the shop. All nine former 6A circuits (street lights ×6, inverter line, South container lights, West container lights) are now **10A 1P C**.
+- Safe because loads are tiny (street light circuits ~1.4A; lights/fans ~2–5A) and cables are 1.5mm² Cu or 4mm² Al — both well above 10A ampacity.
+- User has 8× 10A total: 1 for pond pump + 7 for lights → **2 more 10A breakers needed** to reach nine light circuits.
+
 ## Recent changes (single-pole only, except main + container feeder)
 - Multi-pole MCBs are costly → only two multi-pole breakers remain: 63A 4P B main and 32A 3P B container feeder.
 - Outdoor 25A 3P feeder replaced by 3x 25A 1P B (R/Y/B) in Box 3 and 3x 25A 1P B in Box 5.
