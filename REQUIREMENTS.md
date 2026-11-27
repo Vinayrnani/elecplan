@@ -57,6 +57,7 @@ Validated with electrical skills and IEC 60898 trip curves for the ACTUAL loads 
 - Box 1 is now ONLY the optional changeover + OV/UV + Type-2 SPD enclosure, dashed and marked OPTIONAL / NOT INSTALLED, placed at top-left.
 - Box 3 (Outgoing Feeders) moved directly below Box 2 in the same column; Box 4/5/6 unchanged. Wire routing recomputed for the moved feeder box.
 - Label overlap cleanup: small breakers labelled beside the device, MCCBs below with white label background; redundant box-name text cells removed; schedules A/B/C provide full breaker details. No breaker-to-breaker label overlap in rendered PNG.
+- Load update: Shed now includes an inverter AC on its 32A 1P B R-phase feeder. North-East sub-DB submersible pump is fixed-speed and correctly stays on 16A 1P C (R phase). Estimated running phase balance at main: R ~42A, Y ~37A, B ~48A — all within the 63A 4P main.
 
 ## Recent changes (Cu/Al wire material rule)
 - User rule: wires inside DB/boxes = copper; all underground/field cables = aluminium.
