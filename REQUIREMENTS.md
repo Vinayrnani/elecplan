@@ -31,6 +31,13 @@ Validated with electrical skills and IEC 60898 trip curves for the ACTUAL loads 
 - Future South/West container extension: run a separate feeder from the Main DB; do NOT tee off Rooms 1–4 (feeder already ~30A worst phase).
 - RCCB still optional/not used; 16A pool RCBO stays; changeover/OV/UV/SPD remain OPTIONAL / NOT INSTALLED.
 
+## Recent changes (single-pole only, except main + container feeder)
+- Multi-pole MCBs are costly → only two multi-pole breakers remain: 63A 4P B main and 32A 3P B container feeder.
+- Outdoor 25A 3P feeder replaced by 3x 25A 1P B (R/Y/B) in Box 3 and 3x 25A 1P B in Box 5.
+- NE and Amphi/Pool 25A 2P feeders replaced by 2x 25A 1P B each (Y/B). Box 6 now has 2x 25A 1P B incomer.
+- Neutral still bypasses all MCBs to the Neutral Link; Box 5 neutral feed now comes from Serplex N terminal (no neutral through a single-pole breaker).
+- The 16A 1P+N RCBO for the swimming pool is retained — it is a safety device, not a distribution multi-pole MCB.
+
 ## Recent changes (phase distribution + container circuits)
 - User request: distribute phases; shed and all other loads balanced, including South and West containers. West container has one inverter AC; both containers otherwise lights + fans only.
 - Shed stays on **R** (lightest main-board phase: pump 16A C + SE street light 6A + 3-phase feeders). Y carries Amphi + Main/Gate + East street lights; B carries pond/pool pumps + North street light.
